@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27428.2037
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McTools.Xrm.Connection", "McTools.Xrm.Connection\McTools.Xrm.Connection.csproj", "{C3824C2C-6E2E-4FDE-A2AA-229BBC7C3B1F}"
 EndProject
@@ -11,7 +11,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McTools.Xrm.Connection.Test
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{A3FFFB54-ACB9-41CC-83A8-3A2F87DADD71}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared", "shared", "{4438FA35-675B-4AFD-8C84-82565B7E9618}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "McTools.Xrm.Connection", "shared\McTools.Xrm.Connection\McTools.Xrm.Connection.shproj", "{462253B0-2B28-404E-ADCD-0CBCCE60CB7B}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "McTools.Xrm.Connection.WinForms", "shared\McTools.Xrm.Connection.WinForms\McTools.Xrm.Connection.WinForms.shproj", "{CCA68569-2044-4FCE-8868-C4AA881F512B}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		shared\McTools.Xrm.Connection\McTools.Xrm.Connection.projitems*{462253b0-2b28-404e-adcd-0cbcce60cb7b}*SharedItemsImports = 13
+		shared\McTools.Xrm.Connection.WinForms\McTools.Xrm.Connection.WinForms.projitems*{cca68569-2044-4fce-8868-c4aa881f512b}*SharedItemsImports = 13
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|x86 = Debug|x86
@@ -49,6 +59,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{C3824C2C-6E2E-4FDE-A2AA-229BBC7C3B1F} = {A3FFFB54-ACB9-41CC-83A8-3A2F87DADD71}
 		{EEB5C09F-CEC6-4FB5-87B5-AE61AE89C9EB} = {A3FFFB54-ACB9-41CC-83A8-3A2F87DADD71}
+		{462253B0-2B28-404E-ADCD-0CBCCE60CB7B} = {4438FA35-675B-4AFD-8C84-82565B7E9618}
+		{CCA68569-2044-4FCE-8868-C4AA881F512B} = {4438FA35-675B-4AFD-8C84-82565B7E9618}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C1D2833A-693B-47BA-B637-789FC4C9E532}

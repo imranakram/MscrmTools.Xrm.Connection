@@ -9,26 +9,6 @@
     <Import_RootNamespace>McTools.Xrm.Connection.WinForms</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="$(MSBuildThisFileDirectory)Resources\ConnectionStringImage1.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\CRMOnlineLive_16.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\database_link.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\LogoDyn365.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\logo_0100.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\logo_0200.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\powerapps16.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\server.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\server_add.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\server_connect.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\server_delete.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\server_edit.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\server_key.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\server_lightning.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\ServicePrincipal.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\XTB_HIGHLIGHT_CUSTOM.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\XTB_HIGHLIGHT_PRODUCTION.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\XTB_HIGHLIGHT_UAT.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)AddConnectionFileDialog.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)AddConnectionFileDialog.designer.cs">
       <DependentUpon>AddConnectionFileDialog.cs</DependentUpon>
@@ -159,5 +139,8 @@
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)CustomControls\StartPageControl.resx">
       <DependentUpon>StartPageControl.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Resources\" />
   </ItemGroup>
 </Project>

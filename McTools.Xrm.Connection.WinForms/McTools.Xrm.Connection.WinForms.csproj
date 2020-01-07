@@ -388,60 +388,24 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\shared\McTools.Xrm.Connection.WinForms\Resources\ConnectionStringImage1.png">
-      <Link>Resources\ConnectionStringImage1.png</Link>
-    </Content>
-    <Content Include="..\shared\McTools.Xrm.Connection.WinForms\Resources\CRMOnlineLive_16.png">
-      <Link>Resources\CRMOnlineLive_16.png</Link>
-    </Content>
-    <Content Include="..\shared\McTools.Xrm.Connection.WinForms\Resources\database_link.png">
-      <Link>Resources\database_link.png</Link>
-    </Content>
-    <Content Include="..\shared\McTools.Xrm.Connection.WinForms\Resources\LogoDyn365.png">
-      <Link>Resources\LogoDyn365.png</Link>
-    </Content>
-    <Content Include="..\shared\McTools.Xrm.Connection.WinForms\Resources\logo_0100.png">
-      <Link>Resources\logo_0100.png</Link>
-    </Content>
-    <Content Include="..\shared\McTools.Xrm.Connection.WinForms\Resources\logo_0200.png">
-      <Link>Resources\logo_0200.png</Link>
-    </Content>
-    <Content Include="..\shared\McTools.Xrm.Connection.WinForms\Resources\powerapps16.png">
-      <Link>Resources\powerapps16.png</Link>
-    </Content>
-    <Content Include="..\shared\McTools.Xrm.Connection.WinForms\Resources\server.png">
-      <Link>Resources\server.png</Link>
-    </Content>
-    <Content Include="..\shared\McTools.Xrm.Connection.WinForms\Resources\server_add.png">
-      <Link>Resources\server_add.png</Link>
-    </Content>
-    <Content Include="..\shared\McTools.Xrm.Connection.WinForms\Resources\server_connect.png">
-      <Link>Resources\server_connect.png</Link>
-    </Content>
-    <Content Include="..\shared\McTools.Xrm.Connection.WinForms\Resources\server_delete.png">
-      <Link>Resources\server_delete.png</Link>
-    </Content>
-    <Content Include="..\shared\McTools.Xrm.Connection.WinForms\Resources\server_edit.png">
-      <Link>Resources\server_edit.png</Link>
-    </Content>
-    <Content Include="..\shared\McTools.Xrm.Connection.WinForms\Resources\server_key.png">
-      <Link>Resources\server_key.png</Link>
-    </Content>
-    <Content Include="..\shared\McTools.Xrm.Connection.WinForms\Resources\server_lightning.png">
-      <Link>Resources\server_lightning.png</Link>
-    </Content>
-    <Content Include="..\shared\McTools.Xrm.Connection.WinForms\Resources\ServicePrincipal.png">
-      <Link>Resources\ServicePrincipal.png</Link>
-    </Content>
-    <Content Include="..\shared\McTools.Xrm.Connection.WinForms\Resources\XTB_HIGHLIGHT_CUSTOM.png">
-      <Link>Resources\XTB_HIGHLIGHT_CUSTOM.png</Link>
-    </Content>
-    <Content Include="..\shared\McTools.Xrm.Connection.WinForms\Resources\XTB_HIGHLIGHT_PRODUCTION.png">
-      <Link>Resources\XTB_HIGHLIGHT_PRODUCTION.png</Link>
-    </Content>
-    <Content Include="..\shared\McTools.Xrm.Connection.WinForms\Resources\XTB_HIGHLIGHT_UAT.png">
-      <Link>Resources\XTB_HIGHLIGHT_UAT.png</Link>
-    </Content>
+    <Content Include="Resources\ConnectionStringImage1.png" />
+    <Content Include="Resources\CRMOnlineLive_16.png" />
+    <Content Include="Resources\database_link.png" />
+    <Content Include="Resources\LogoDyn365.png" />
+    <Content Include="Resources\logo_0100.png" />
+    <Content Include="Resources\logo_0200.png" />
+    <Content Include="Resources\powerapps16.png" />
+    <Content Include="Resources\server.png" />
+    <Content Include="Resources\server_add.png" />
+    <Content Include="Resources\server_connect.png" />
+    <Content Include="Resources\server_delete.png" />
+    <Content Include="Resources\server_edit.png" />
+    <Content Include="Resources\server_key.png" />
+    <Content Include="Resources\server_lightning.png" />
+    <Content Include="Resources\ServicePrincipal.png" />
+    <Content Include="Resources\XTB_HIGHLIGHT_CUSTOM.png" />
+    <Content Include="Resources\XTB_HIGHLIGHT_PRODUCTION.png" />
+    <Content Include="Resources\XTB_HIGHLIGHT_UAT.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
