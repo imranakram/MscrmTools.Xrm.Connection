@@ -9,7 +9,155 @@
     <Import_RootNamespace>McTools.Xrm.Connection.WinForms</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="$(MSBuildThisFileDirectory)CustomControls\" />
-    <Folder Include="$(MSBuildThisFileDirectory)Resources\" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\ConnectionStringImage1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\CRMOnlineLive_16.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\database_link.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\LogoDyn365.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\logo_0100.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\logo_0200.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\powerapps16.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\server.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\server_add.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\server_connect.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\server_delete.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\server_edit.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\server_key.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\server_lightning.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\ServicePrincipal.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\XTB_HIGHLIGHT_CUSTOM.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\XTB_HIGHLIGHT_PRODUCTION.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Resources\XTB_HIGHLIGHT_UAT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)AddConnectionFileDialog.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AddConnectionFileDialog.designer.cs">
+      <DependentUpon>AddConnectionFileDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)ConnectionSelector.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ConnectionSelector.designer.cs">
+      <DependentUpon>ConnectionSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)ConnectionSettings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ConnectionWizard2.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ConnectionWizard2.designer.cs">
+      <DependentUpon>ConnectionWizard2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)CrmConnectionStatusBar.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CrmConnectionStatusBar.designer.cs">
+      <DependentUpon>CrmConnectionStatusBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)CRMLoginForm1.xaml.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CustomControls\ConnectionCredentialsControl.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CustomControls\ConnectionCredentialsControl.Designer.cs">
+      <DependentUpon>ConnectionCredentialsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)CustomControls\ConnectionFailedControl.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CustomControls\ConnectionFailedControl.Designer.cs">
+      <DependentUpon>ConnectionFailedControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)CustomControls\ConnectionFirstStepControl.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CustomControls\ConnectionFirstStepControl.Designer.cs">
+      <DependentUpon>ConnectionFirstStepControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)CustomControls\ConnectionIfdControl.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CustomControls\ConnectionIfdControl.Designer.cs">
+      <DependentUpon>ConnectionIfdControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)CustomControls\ConnectionLoadingControl.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CustomControls\ConnectionLoadingControl.Designer.cs">
+      <DependentUpon>ConnectionLoadingControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)CustomControls\ConnectionOauthControl.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CustomControls\ConnectionOauthControl.Designer.cs">
+      <DependentUpon>ConnectionOauthControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)CustomControls\ConnectionServicePrincipalControl.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CustomControls\ConnectionServicePrincipalControl.Designer.cs">
+      <DependentUpon>ConnectionServicePrincipalControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)CustomControls\ConnectionStringControl.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CustomControls\ConnectionStringControl.Designer.cs">
+      <DependentUpon>ConnectionStringControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)CustomControls\ConnectionStringDialog.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CustomControls\ConnectionStringDialog.Designer.cs">
+      <DependentUpon>ConnectionStringDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)CustomControls\ConnectionSucceededControl.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CustomControls\ConnectionSucceededControl.Designer.cs">
+      <DependentUpon>ConnectionSucceededControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)CustomControls\IConnectionWizardControl.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CustomControls\SdkLoginControlControl.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CustomControls\SdkLoginControlControl.Designer.cs">
+      <DependentUpon>SdkLoginControlControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)CustomControls\StartPageControl.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CustomControls\StartPageControl.Designer.cs">
+      <DependentUpon>StartPageControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)EnvHighlightDialog.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EnvHighlightDialog.Designer.cs">
+      <DependentUpon>EnvHighlightDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)EnvHighlightSettingsDialog.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EnvHighlightSettingsDialog.Designer.cs">
+      <DependentUpon>EnvHighlightSettingsDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)FormHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ListViewItemComparer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NewConnectionFileDialog.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NewConnectionFileDialog.designer.cs">
+      <DependentUpon>NewConnectionFileDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)PasswordForm.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PasswordForm.designer.cs">
+      <DependentUpon>PasswordForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)ProxySettingsForm.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ProxySettingsForm.designer.cs">
+      <DependentUpon>ProxySettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Resources.Designer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RessourceManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UpdatePasswordForm.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UpdatePasswordForm.designer.cs">
+      <DependentUpon>UpdatePasswordForm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)CustomControls\ConnectionCredentialsControl.resx">
+      <DependentUpon>ConnectionCredentialsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)CustomControls\ConnectionFailedControl.resx">
+      <DependentUpon>ConnectionFailedControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)CustomControls\ConnectionFirstStepControl.resx">
+      <DependentUpon>ConnectionFirstStepControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)CustomControls\ConnectionIfdControl.resx">
+      <DependentUpon>ConnectionIfdControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)CustomControls\ConnectionLoadingControl.resx">
+      <DependentUpon>ConnectionLoadingControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)CustomControls\ConnectionOauthControl.resx">
+      <DependentUpon>ConnectionOauthControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)CustomControls\ConnectionServicePrincipalControl.resx">
+      <DependentUpon>ConnectionServicePrincipalControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)CustomControls\ConnectionStringControl.resx">
+      <DependentUpon>ConnectionStringControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)CustomControls\ConnectionSucceededControl.resx">
+      <DependentUpon>ConnectionSucceededControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)CustomControls\SdkLoginControlControl.resx">
+      <DependentUpon>SdkLoginControlControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)CustomControls\StartPageControl.resx">
+      <DependentUpon>StartPageControl.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

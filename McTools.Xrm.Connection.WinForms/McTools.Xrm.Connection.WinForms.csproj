@@ -152,251 +152,228 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConnectionStringDialog.cs">
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\AddConnectionFileDialog.cs">
+      <Link>AddConnectionFileDialog.cs</Link>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ConnectionStringDialog.Designer.cs">
-      <DependentUpon>ConnectionStringDialog.cs</DependentUpon>
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\AddConnectionFileDialog.designer.cs">
+      <Link>AddConnectionFileDialog.designer.cs</Link>
     </Compile>
-    <Compile Include="ConnectionWizard2.cs">
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\ConnectionSelector.cs">
+      <Link>ConnectionSelector.cs</Link>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ConnectionWizard2.designer.cs">
-      <DependentUpon>ConnectionWizard2.cs</DependentUpon>
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\ConnectionSelector.designer.cs">
+      <Link>ConnectionSelector.designer.cs</Link>
     </Compile>
-    <Compile Include="CRMLoginForm1.xaml.cs">
-      <DependentUpon>CRMLoginForm1.xaml</DependentUpon>
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\ConnectionSettings.cs">
+      <Link>ConnectionSettings.cs</Link>
     </Compile>
-    <Compile Include="CustomControls\ConnectionCredentialsControl.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="CustomControls\ConnectionCredentialsControl.Designer.cs">
-      <DependentUpon>ConnectionCredentialsControl.cs</DependentUpon>
-    </Compile>
-    <Compile Include="CustomControls\ConnectionFailedControl.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="CustomControls\ConnectionFailedControl.Designer.cs">
-      <DependentUpon>ConnectionFailedControl.cs</DependentUpon>
-    </Compile>
-    <Compile Include="CustomControls\ConnectionFirstStepControl.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="CustomControls\ConnectionFirstStepControl.Designer.cs">
-      <DependentUpon>ConnectionFirstStepControl.cs</DependentUpon>
-    </Compile>
-    <Compile Include="CustomControls\ConnectionIfdControl.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="CustomControls\ConnectionIfdControl.Designer.cs">
-      <DependentUpon>ConnectionIfdControl.cs</DependentUpon>
-    </Compile>
-    <Compile Include="CustomControls\ConnectionLoadingControl.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="CustomControls\ConnectionLoadingControl.Designer.cs">
-      <DependentUpon>ConnectionLoadingControl.cs</DependentUpon>
-    </Compile>
-    <Compile Include="CustomControls\ConnectionServicePrincipalControl.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="CustomControls\ConnectionServicePrincipalControl.Designer.cs">
-      <DependentUpon>ConnectionServicePrincipalControl.cs</DependentUpon>
-    </Compile>
-    <Compile Include="CustomControls\ConnectionOauthControl.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="CustomControls\ConnectionOauthControl.Designer.cs">
-      <DependentUpon>ConnectionOauthControl.cs</DependentUpon>
-    </Compile>
-    <Compile Include="CustomControls\StartPageControl.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="CustomControls\StartPageControl.Designer.cs">
-      <DependentUpon>StartPageControl.cs</DependentUpon>
-    </Compile>
-    <Compile Include="CustomControls\SdkLoginControlControl.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="CustomControls\SdkLoginControlControl.Designer.cs">
-      <DependentUpon>SdkLoginControlControl.cs</DependentUpon>
-    </Compile>
-    <Compile Include="CustomControls\ConnectionStringControl.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="CustomControls\ConnectionStringControl.Designer.cs">
-      <DependentUpon>ConnectionStringControl.cs</DependentUpon>
-    </Compile>
-    <Compile Include="CustomControls\ConnectionSucceededControl.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="CustomControls\ConnectionSucceededControl.Designer.cs">
-      <DependentUpon>ConnectionSucceededControl.cs</DependentUpon>
-    </Compile>
-    <Compile Include="CustomControls\IConnectionWizardControl.cs" />
-    <Compile Include="EnvHighlightDialog.cs">
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\ConnectionWizard2.cs">
+      <Link>ConnectionWizard2.cs</Link>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EnvHighlightDialog.Designer.cs">
-      <DependentUpon>EnvHighlightDialog.cs</DependentUpon>
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\ConnectionWizard2.designer.cs">
+      <Link>ConnectionWizard2.designer.cs</Link>
     </Compile>
-    <Compile Include="EnvHighlightSettingsDialog.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="EnvHighlightSettingsDialog.Designer.cs">
-      <DependentUpon>EnvHighlightSettingsDialog.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UpdatePasswordForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="UpdatePasswordForm.designer.cs">
-      <DependentUpon>UpdatePasswordForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ConnectionSelector.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ConnectionSelector.designer.cs">
-      <DependentUpon>ConnectionSelector.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ConnectionSettings.cs" />
-    <Compile Include="CrmConnectionStatusBar.cs">
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\CrmConnectionStatusBar.cs">
+      <Link>CrmConnectionStatusBar.cs</Link>
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="CrmConnectionStatusBar.designer.cs">
-      <DependentUpon>CrmConnectionStatusBar.cs</DependentUpon>
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\CrmConnectionStatusBar.designer.cs">
+      <Link>CrmConnectionStatusBar.designer.cs</Link>
     </Compile>
-    <Compile Include="ListViewItemComparer.cs" />
-    <Compile Include="AddConnectionFileDialog.cs">
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\CRMLoginForm1.xaml.cs">
+      <Link>CRMLoginForm1.xaml.cs</Link>
+    </Compile>
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\CustomControls\ConnectionCredentialsControl.cs">
+      <Link>CustomControls\ConnectionCredentialsControl.cs</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\CustomControls\ConnectionCredentialsControl.Designer.cs">
+      <Link>CustomControls\ConnectionCredentialsControl.Designer.cs</Link>
+    </Compile>
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\CustomControls\ConnectionFailedControl.cs">
+      <Link>CustomControls\ConnectionFailedControl.cs</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\CustomControls\ConnectionFailedControl.Designer.cs">
+      <Link>CustomControls\ConnectionFailedControl.Designer.cs</Link>
+    </Compile>
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\CustomControls\ConnectionFirstStepControl.cs">
+      <Link>CustomControls\ConnectionFirstStepControl.cs</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\CustomControls\ConnectionFirstStepControl.Designer.cs">
+      <Link>CustomControls\ConnectionFirstStepControl.Designer.cs</Link>
+    </Compile>
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\CustomControls\ConnectionIfdControl.cs">
+      <Link>CustomControls\ConnectionIfdControl.cs</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\CustomControls\ConnectionIfdControl.Designer.cs">
+      <Link>CustomControls\ConnectionIfdControl.Designer.cs</Link>
+    </Compile>
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\CustomControls\ConnectionLoadingControl.cs">
+      <Link>CustomControls\ConnectionLoadingControl.cs</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\CustomControls\ConnectionLoadingControl.Designer.cs">
+      <Link>CustomControls\ConnectionLoadingControl.Designer.cs</Link>
+    </Compile>
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\CustomControls\ConnectionOauthControl.cs">
+      <Link>CustomControls\ConnectionOauthControl.cs</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\CustomControls\ConnectionOauthControl.Designer.cs">
+      <Link>CustomControls\ConnectionOauthControl.Designer.cs</Link>
+    </Compile>
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\CustomControls\ConnectionServicePrincipalControl.cs">
+      <Link>CustomControls\ConnectionServicePrincipalControl.cs</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\CustomControls\ConnectionServicePrincipalControl.Designer.cs">
+      <Link>CustomControls\ConnectionServicePrincipalControl.Designer.cs</Link>
+    </Compile>
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\CustomControls\ConnectionStringControl.cs">
+      <Link>CustomControls\ConnectionStringControl.cs</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\CustomControls\ConnectionStringControl.Designer.cs">
+      <Link>CustomControls\ConnectionStringControl.Designer.cs</Link>
+    </Compile>
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\CustomControls\ConnectionStringDialog.cs">
+      <Link>CustomControls\ConnectionStringDialog.cs</Link>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddConnectionFileDialog.designer.cs">
-      <DependentUpon>AddConnectionFileDialog.cs</DependentUpon>
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\CustomControls\ConnectionStringDialog.Designer.cs">
+      <Link>CustomControls\ConnectionStringDialog.Designer.cs</Link>
     </Compile>
-    <Compile Include="PasswordForm.cs">
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\CustomControls\ConnectionSucceededControl.cs">
+      <Link>CustomControls\ConnectionSucceededControl.cs</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\CustomControls\ConnectionSucceededControl.Designer.cs">
+      <Link>CustomControls\ConnectionSucceededControl.Designer.cs</Link>
+    </Compile>
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\CustomControls\IConnectionWizardControl.cs">
+      <Link>CustomControls\IConnectionWizardControl.cs</Link>
+    </Compile>
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\CustomControls\SdkLoginControlControl.cs">
+      <Link>CustomControls\SdkLoginControlControl.cs</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\CustomControls\SdkLoginControlControl.Designer.cs">
+      <Link>CustomControls\SdkLoginControlControl.Designer.cs</Link>
+    </Compile>
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\CustomControls\StartPageControl.cs">
+      <Link>CustomControls\StartPageControl.cs</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\CustomControls\StartPageControl.Designer.cs">
+      <Link>CustomControls\StartPageControl.Designer.cs</Link>
+    </Compile>
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\EnvHighlightDialog.cs">
+      <Link>EnvHighlightDialog.cs</Link>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PasswordForm.designer.cs">
-      <DependentUpon>PasswordForm.cs</DependentUpon>
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\EnvHighlightDialog.Designer.cs">
+      <Link>EnvHighlightDialog.Designer.cs</Link>
     </Compile>
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\EnvHighlightSettingsDialog.cs">
+      <Link>EnvHighlightSettingsDialog.cs</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\EnvHighlightSettingsDialog.Designer.cs">
+      <Link>EnvHighlightSettingsDialog.Designer.cs</Link>
+    </Compile>
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\FormHelper.cs">
+      <Link>FormHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\ListViewItemComparer.cs">
+      <Link>ListViewItemComparer.cs</Link>
+    </Compile>
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\NewConnectionFileDialog.cs">
+      <Link>NewConnectionFileDialog.cs</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\NewConnectionFileDialog.designer.cs">
+      <Link>NewConnectionFileDialog.designer.cs</Link>
+    </Compile>
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\PasswordForm.cs">
+      <Link>PasswordForm.cs</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\PasswordForm.designer.cs">
+      <Link>PasswordForm.designer.cs</Link>
+    </Compile>
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\ProxySettingsForm.cs">
+      <Link>ProxySettingsForm.cs</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\ProxySettingsForm.designer.cs">
+      <Link>ProxySettingsForm.designer.cs</Link>
+    </Compile>
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\Resources.Designer.cs">
+      <Link>Resources.Designer.cs</Link>
+    </Compile>
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\RessourceManager.cs">
+      <Link>RessourceManager.cs</Link>
+    </Compile>
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\UpdatePasswordForm.cs">
+      <Link>UpdatePasswordForm.cs</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\UpdatePasswordForm.designer.cs">
+      <Link>UpdatePasswordForm.designer.cs</Link>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="FormHelper.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="NewConnectionFileDialog.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="NewConnectionFileDialog.designer.cs">
-      <DependentUpon>NewConnectionFileDialog.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProxySettingsForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ProxySettingsForm.designer.cs">
-      <DependentUpon>ProxySettingsForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="RessourceManager.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="ConnectionStringDialog.resx">
-      <DependentUpon>ConnectionStringDialog.cs</DependentUpon>
+    <EmbeddedResource Include="..\shared\McTools.Xrm.Connection.WinForms\CustomControls\ConnectionCredentialsControl.resx">
+      <Link>CustomControls\ConnectionCredentialsControl.resx</Link>
     </EmbeddedResource>
-    <EmbeddedResource Include="ConnectionWizard2.resx">
-      <DependentUpon>ConnectionWizard2.cs</DependentUpon>
+    <EmbeddedResource Include="..\shared\McTools.Xrm.Connection.WinForms\CustomControls\ConnectionFailedControl.resx">
+      <Link>CustomControls\ConnectionFailedControl.resx</Link>
     </EmbeddedResource>
-    <EmbeddedResource Include="CustomControls\ConnectionCredentialsControl.resx">
-      <DependentUpon>ConnectionCredentialsControl.cs</DependentUpon>
+    <EmbeddedResource Include="..\shared\McTools.Xrm.Connection.WinForms\CustomControls\ConnectionFirstStepControl.resx">
+      <Link>CustomControls\ConnectionFirstStepControl.resx</Link>
     </EmbeddedResource>
-    <EmbeddedResource Include="CustomControls\ConnectionFailedControl.resx">
-      <DependentUpon>ConnectionFailedControl.cs</DependentUpon>
+    <EmbeddedResource Include="..\shared\McTools.Xrm.Connection.WinForms\CustomControls\ConnectionIfdControl.resx">
+      <Link>CustomControls\ConnectionIfdControl.resx</Link>
     </EmbeddedResource>
-    <EmbeddedResource Include="CustomControls\ConnectionFirstStepControl.resx">
-      <DependentUpon>ConnectionFirstStepControl.cs</DependentUpon>
+    <EmbeddedResource Include="..\shared\McTools.Xrm.Connection.WinForms\CustomControls\ConnectionLoadingControl.resx">
+      <Link>CustomControls\ConnectionLoadingControl.resx</Link>
     </EmbeddedResource>
-    <EmbeddedResource Include="CustomControls\ConnectionIfdControl.resx">
-      <DependentUpon>ConnectionIfdControl.cs</DependentUpon>
+    <EmbeddedResource Include="..\shared\McTools.Xrm.Connection.WinForms\CustomControls\ConnectionOauthControl.resx">
+      <Link>CustomControls\ConnectionOauthControl.resx</Link>
     </EmbeddedResource>
-    <EmbeddedResource Include="CustomControls\ConnectionLoadingControl.resx">
-      <DependentUpon>ConnectionLoadingControl.cs</DependentUpon>
+    <EmbeddedResource Include="..\shared\McTools.Xrm.Connection.WinForms\CustomControls\ConnectionServicePrincipalControl.resx">
+      <Link>CustomControls\ConnectionServicePrincipalControl.resx</Link>
     </EmbeddedResource>
-    <EmbeddedResource Include="CustomControls\ConnectionServicePrincipalControl.resx">
-      <DependentUpon>ConnectionServicePrincipalControl.cs</DependentUpon>
+    <EmbeddedResource Include="..\shared\McTools.Xrm.Connection.WinForms\CustomControls\ConnectionStringControl.resx">
+      <Link>CustomControls\ConnectionStringControl.resx</Link>
     </EmbeddedResource>
-    <EmbeddedResource Include="CustomControls\ConnectionOauthControl.resx">
-      <DependentUpon>ConnectionOauthControl.cs</DependentUpon>
+    <EmbeddedResource Include="..\shared\McTools.Xrm.Connection.WinForms\CustomControls\ConnectionSucceededControl.resx">
+      <Link>CustomControls\ConnectionSucceededControl.resx</Link>
     </EmbeddedResource>
-    <EmbeddedResource Include="CustomControls\StartPageControl.resx">
-      <DependentUpon>StartPageControl.cs</DependentUpon>
+    <EmbeddedResource Include="..\shared\McTools.Xrm.Connection.WinForms\CustomControls\SdkLoginControlControl.resx">
+      <Link>CustomControls\SdkLoginControlControl.resx</Link>
     </EmbeddedResource>
-    <EmbeddedResource Include="CustomControls\SdkLoginControlControl.resx">
-      <DependentUpon>SdkLoginControlControl.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="CustomControls\ConnectionStringControl.resx">
-      <DependentUpon>ConnectionStringControl.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="CustomControls\ConnectionSucceededControl.resx">
-      <DependentUpon>ConnectionSucceededControl.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="EnvHighlightDialog.resx">
-      <DependentUpon>EnvHighlightDialog.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="EnvHighlightSettingsDialog.resx">
-      <DependentUpon>EnvHighlightSettingsDialog.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UpdatePasswordForm.resx">
-      <DependentUpon>UpdatePasswordForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ConnectionSelector.resx">
-      <DependentUpon>ConnectionSelector.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="CrmConnectionStatusBar.resx">
-      <DependentUpon>CrmConnectionStatusBar.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="AddConnectionFileDialog.resx">
-      <DependentUpon>AddConnectionFileDialog.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PasswordForm.resx">
-      <DependentUpon>PasswordForm.cs</DependentUpon>
+    <EmbeddedResource Include="..\shared\McTools.Xrm.Connection.WinForms\CustomControls\StartPageControl.resx">
+      <Link>CustomControls\StartPageControl.resx</Link>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewConnectionFileDialog.resx">
-      <DependentUpon>NewConnectionFileDialog.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ProxySettingsForm.resx">
-      <DependentUpon>ProxySettingsForm.cs</DependentUpon>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Resources\CRMOnlineLive_16.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Resources\server.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Resources\server_add.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Resources\server_connect.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Resources\server_delete.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Resources\server_edit.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Resources\server_key.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Resources\server_lightning.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\McTools.Xrm.Connection\McTools.Xrm.Connection.csproj">
@@ -410,40 +387,62 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="Resources\database_link.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\XTB_HIGHLIGHT_PRODUCTION.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\XTB_HIGHLIGHT_UAT.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\XTB_HIGHLIGHT_CUSTOM.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Page Include="CRMLoginForm1.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\logo_0200.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\logo_0100.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\LogoDyn365.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\ConnectionStringImage1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Resources\powerapps16.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\ServicePrincipal.png" />
+    <Content Include="..\shared\McTools.Xrm.Connection.WinForms\Resources\ConnectionStringImage1.png">
+      <Link>Resources\ConnectionStringImage1.png</Link>
+    </Content>
+    <Content Include="..\shared\McTools.Xrm.Connection.WinForms\Resources\CRMOnlineLive_16.png">
+      <Link>Resources\CRMOnlineLive_16.png</Link>
+    </Content>
+    <Content Include="..\shared\McTools.Xrm.Connection.WinForms\Resources\database_link.png">
+      <Link>Resources\database_link.png</Link>
+    </Content>
+    <Content Include="..\shared\McTools.Xrm.Connection.WinForms\Resources\LogoDyn365.png">
+      <Link>Resources\LogoDyn365.png</Link>
+    </Content>
+    <Content Include="..\shared\McTools.Xrm.Connection.WinForms\Resources\logo_0100.png">
+      <Link>Resources\logo_0100.png</Link>
+    </Content>
+    <Content Include="..\shared\McTools.Xrm.Connection.WinForms\Resources\logo_0200.png">
+      <Link>Resources\logo_0200.png</Link>
+    </Content>
+    <Content Include="..\shared\McTools.Xrm.Connection.WinForms\Resources\powerapps16.png">
+      <Link>Resources\powerapps16.png</Link>
+    </Content>
+    <Content Include="..\shared\McTools.Xrm.Connection.WinForms\Resources\server.png">
+      <Link>Resources\server.png</Link>
+    </Content>
+    <Content Include="..\shared\McTools.Xrm.Connection.WinForms\Resources\server_add.png">
+      <Link>Resources\server_add.png</Link>
+    </Content>
+    <Content Include="..\shared\McTools.Xrm.Connection.WinForms\Resources\server_connect.png">
+      <Link>Resources\server_connect.png</Link>
+    </Content>
+    <Content Include="..\shared\McTools.Xrm.Connection.WinForms\Resources\server_delete.png">
+      <Link>Resources\server_delete.png</Link>
+    </Content>
+    <Content Include="..\shared\McTools.Xrm.Connection.WinForms\Resources\server_edit.png">
+      <Link>Resources\server_edit.png</Link>
+    </Content>
+    <Content Include="..\shared\McTools.Xrm.Connection.WinForms\Resources\server_key.png">
+      <Link>Resources\server_key.png</Link>
+    </Content>
+    <Content Include="..\shared\McTools.Xrm.Connection.WinForms\Resources\server_lightning.png">
+      <Link>Resources\server_lightning.png</Link>
+    </Content>
+    <Content Include="..\shared\McTools.Xrm.Connection.WinForms\Resources\ServicePrincipal.png">
+      <Link>Resources\ServicePrincipal.png</Link>
+    </Content>
+    <Content Include="..\shared\McTools.Xrm.Connection.WinForms\Resources\XTB_HIGHLIGHT_CUSTOM.png">
+      <Link>Resources\XTB_HIGHLIGHT_CUSTOM.png</Link>
+    </Content>
+    <Content Include="..\shared\McTools.Xrm.Connection.WinForms\Resources\XTB_HIGHLIGHT_PRODUCTION.png">
+      <Link>Resources\XTB_HIGHLIGHT_PRODUCTION.png</Link>
+    </Content>
+    <Content Include="..\shared\McTools.Xrm.Connection.WinForms\Resources\XTB_HIGHLIGHT_UAT.png">
+      <Link>Resources\XTB_HIGHLIGHT_UAT.png</Link>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
