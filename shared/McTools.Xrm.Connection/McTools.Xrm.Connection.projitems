@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>462253b0-2b28-404e-adcd-0cbcce60cb7b</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>McTools.Xrm.Connection</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)ConnectionDetail.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ConnectionManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ConnectionsList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CrmConnections.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CrmExceptionHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CryptoManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)deviceidmanager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Organization.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utils\AutoRefreshSecurityToken.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utils\ManagedTokenDiscoveryServiceProxy.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utils\RefreshTokenAuthOverride.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)XmlSerializerHelper.cs" />
+  </ItemGroup>
+</Project>
