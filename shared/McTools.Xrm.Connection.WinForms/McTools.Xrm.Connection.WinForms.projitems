@@ -98,7 +98,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)ProxySettingsForm.designer.cs">
       <DependentUpon>ProxySettingsForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)Resources.Designer.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)RessourceManager.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)UpdatePasswordForm.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)UpdatePasswordForm.designer.cs">
@@ -139,8 +138,5 @@
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)CustomControls\StartPageControl.resx">
       <DependentUpon>StartPageControl.cs</DependentUpon>
     </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="$(MSBuildThisFileDirectory)Resources\" />
   </ItemGroup>
 </Project>
