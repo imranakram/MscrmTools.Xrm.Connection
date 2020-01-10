@@ -100,6 +100,11 @@
     <Compile Include="$(MSBuildThisFileDirectory)ProxySettingsForm.designer.cs">
       <DependentUpon>ProxySettingsForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Resources.Designer.cs">
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)RessourceManager.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)UpdatePasswordForm.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)UpdatePasswordForm.designer.cs">
@@ -139,6 +144,11 @@
     </EmbeddedResource>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)CustomControls\StartPageControl.resx">
       <DependentUpon>StartPageControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources.resx">
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

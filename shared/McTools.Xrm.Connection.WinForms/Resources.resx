@@ -119,13 +119,13 @@
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="logo_0100" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logo_0100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>.\Resources\logo_0100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ConnectionWizard_EnterUrlHeaderDescription" xml:space="preserve">
     <value>Enter the url displayed in the browser when you are connected to your Microsoft Dynamics CRM organization</value>
   </data>
   <data name="XTB_HIGHLIGHT_CUSTOM" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\XTB_HIGHLIGHT_CUSTOM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>.\Resources\XTB_HIGHLIGHT_CUSTOM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ConnectionWizard_NeedToTestConnectionAgain" xml:space="preserve">
     <value>You changed some values that require to test the connection. Would you like to test it now?
@@ -139,13 +139,13 @@ Note that this is required to validate this wizard</value>
     <value>Your information have been validated</value>
   </data>
   <data name="XTB_HIGHLIGHT_PRODUCTION" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\XTB_HIGHLIGHT_PRODUCTION.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>.\Resources\XTB_HIGHLIGHT_PRODUCTION.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ConnectionWizard_CredentialsHeaderDescription" xml:space="preserve">
     <value>Enter credentials required to connect to Microsoft Dynamics CRM organization</value>
   </data>
   <data name="database_link" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\database_link.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>.\Resources\database_link.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ConnectionWizard_UnableToDetermineOrganizationFromUrl" xml:space="preserve">
     <value>Unable to identify organization from url, please review it!</value>
@@ -174,7 +174,7 @@ Note that this is required to validate this wizard</value>
 Expected format : HH:mm:ss</value>
   </data>
   <data name="logo_0200" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logo_0200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>.\Resources\logo_0200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ConnectionWizard_UnableToDetermineOrganization" xml:space="preserve">
     <value>We were unable to determine the organization name based on the information you specified. Please complete the url to add the organization name inside</value>
@@ -183,18 +183,18 @@ Expected format : HH:mm:ss</value>
     <value>Please wait while the wizard is trying to connect to your Microsoft Dynamics CRM organization</value>
   </data>
   <data name="XTB_HIGHLIGHT_UAT" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\XTB_HIGHLIGHT_UAT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>.\Resources\XTB_HIGHLIGHT_UAT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="LogoDyn365" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LogoDyn365.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>.\Resources\LogoDyn365.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ConnectionWizard_QuestionHeaderTitle" xml:space="preserve">
     <value>Question</value>
   </data>
   <data name="ConnectionStringImage1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ConnectionStringImage1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>.\Resources\ConnectionStringImage1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ServicePrincipal" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ServicePrincipal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>.\Resources\ServicePrincipal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
