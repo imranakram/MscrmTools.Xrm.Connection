@@ -407,6 +407,13 @@
     <Content Include="Resources\XTB_HIGHLIGHT_PRODUCTION.png" />
     <Content Include="Resources\XTB_HIGHLIGHT_UAT.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Page Include="..\shared\McTools.Xrm.Connection.WinForms\CRMLoginForm1.xaml">
+      <Link>CRMLoginForm1.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>

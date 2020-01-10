@@ -26,7 +26,9 @@
     <Compile Include="$(MSBuildThisFileDirectory)CrmConnectionStatusBar.designer.cs">
       <DependentUpon>CrmConnectionStatusBar.cs</DependentUpon>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)CRMLoginForm1.xaml.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CRMLoginForm1.xaml.cs">
+      <DependentUpon>CRMLoginForm1.xaml</DependentUpon>
+    </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)CustomControls\ConnectionCredentialsControl.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)CustomControls\ConnectionCredentialsControl.Designer.cs">
       <DependentUpon>ConnectionCredentialsControl.cs</DependentUpon>
@@ -138,5 +140,11 @@
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)CustomControls\StartPageControl.resx">
       <DependentUpon>StartPageControl.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="$(MSBuildThisFileDirectory)CRMLoginForm1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
   </ItemGroup>
 </Project>
