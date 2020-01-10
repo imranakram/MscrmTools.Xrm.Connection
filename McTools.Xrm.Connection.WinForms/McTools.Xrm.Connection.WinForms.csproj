@@ -330,6 +330,21 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="..\shared\McTools.Xrm.Connection.WinForms\AddConnectionFileDialog.resx">
+      <Link>AddConnectionFileDialog.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\shared\McTools.Xrm.Connection.WinForms\ConnectionSelector.resx">
+      <Link>ConnectionSelector.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\shared\McTools.Xrm.Connection.WinForms\ConnectionStringDialog.resx">
+      <Link>ConnectionStringDialog.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\shared\McTools.Xrm.Connection.WinForms\ConnectionWizard2.resx">
+      <Link>ConnectionWizard2.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\shared\McTools.Xrm.Connection.WinForms\CrmConnectionStatusBar.resx">
+      <Link>CrmConnectionStatusBar.resx</Link>
+    </EmbeddedResource>
     <EmbeddedResource Include="..\shared\McTools.Xrm.Connection.WinForms\CustomControls\ConnectionCredentialsControl.resx">
       <Link>CustomControls\ConnectionCredentialsControl.resx</Link>
     </EmbeddedResource>
@@ -363,8 +378,23 @@
     <EmbeddedResource Include="..\shared\McTools.Xrm.Connection.WinForms\CustomControls\StartPageControl.resx">
       <Link>CustomControls\StartPageControl.resx</Link>
     </EmbeddedResource>
+    <EmbeddedResource Include="..\shared\McTools.Xrm.Connection.WinForms\EnvHighlightDialog.resx">
+      <Link>EnvHighlightDialog.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\shared\McTools.Xrm.Connection.WinForms\EnvHighlightSettingsDialog.resx">
+      <Link>EnvHighlightSettingsDialog.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\shared\McTools.Xrm.Connection.WinForms\NewConnectionFileDialog.resx">
+      <Link>NewConnectionFileDialog.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\shared\McTools.Xrm.Connection.WinForms\PasswordForm.resx">
+      <Link>PasswordForm.resx</Link>
+    </EmbeddedResource>
     <EmbeddedResource Include="..\shared\McTools.Xrm.Connection.WinForms\Properties\Resources.resx">
       <Link>Properties\Resources.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\shared\McTools.Xrm.Connection.WinForms\UpdatePasswordForm.resx">
+      <Link>UpdatePasswordForm.resx</Link>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -388,6 +418,9 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="..\shared\McTools.Xrm.Connection.WinForms\ProxySettingsForm.resx">
+      <Link>ProxySettingsForm.resx</Link>
+    </EmbeddedResource>
     <EmbeddedResource Include="..\shared\McTools.Xrm.Connection.WinForms\Resources\ConnectionStringImage1.png">
       <Link>Resources\ConnectionStringImage1.png</Link>
     </EmbeddedResource>

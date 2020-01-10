@@ -112,6 +112,19 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)AddConnectionFileDialog.resx">
+      <DependentUpon>AddConnectionFileDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)ConnectionSelector.resx">
+      <DependentUpon>ConnectionSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)ConnectionStringDialog.resx" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)ConnectionWizard2.resx">
+      <DependentUpon>ConnectionWizard2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)CrmConnectionStatusBar.resx">
+      <DependentUpon>CrmConnectionStatusBar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)CustomControls\ConnectionCredentialsControl.resx">
       <DependentUpon>ConnectionCredentialsControl.cs</DependentUpon>
     </EmbeddedResource>
@@ -145,10 +158,28 @@
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)CustomControls\StartPageControl.resx">
       <DependentUpon>StartPageControl.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)EnvHighlightDialog.resx">
+      <DependentUpon>EnvHighlightDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)EnvHighlightSettingsDialog.resx">
+      <DependentUpon>EnvHighlightSettingsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)NewConnectionFileDialog.resx">
+      <DependentUpon>NewConnectionFileDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)PasswordForm.resx">
+      <DependentUpon>PasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Properties\Resources.resx">
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)ProxySettingsForm.resx">
+      <DependentUpon>ProxySettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)UpdatePasswordForm.resx">
+      <DependentUpon>UpdatePasswordForm.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
