@@ -11,23 +11,23 @@
   <Import Project="McTools.Xrm.Connection.WinForms.projitems" Label="Shared" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\CodeSharing\Microsoft.CodeSharing.CSharp.targets" />
   <ItemGroup>
-    <Content Include="$(MSBuildThisFileDirectory)Resources\ConnectionStringImage1.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\CRMOnlineLive_16.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\database_link.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\LogoDyn365.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\logo_0100.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\logo_0200.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\powerapps16.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\server.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\server_add.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\server_connect.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\server_delete.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\server_edit.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\server_key.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\server_lightning.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\ServicePrincipal.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\XTB_HIGHLIGHT_CUSTOM.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\XTB_HIGHLIGHT_PRODUCTION.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Resources\XTB_HIGHLIGHT_UAT.png" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\ConnectionStringImage1.png" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\CRMOnlineLive_16.png" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\database_link.png" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\LogoDyn365.png" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\logo_0100.png" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\logo_0200.png" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\powerapps16.png" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\server.png" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\server_add.png" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\server_connect.png" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\server_delete.png" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\server_edit.png" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\server_key.png" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\server_lightning.png" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\ServicePrincipal.png" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\XTB_HIGHLIGHT_CUSTOM.png" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\XTB_HIGHLIGHT_PRODUCTION.png" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\XTB_HIGHLIGHT_UAT.png" />
   </ItemGroup>
 </Project>
