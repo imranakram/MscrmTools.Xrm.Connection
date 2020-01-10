@@ -314,7 +314,7 @@
     <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\ProxySettingsForm.designer.cs">
       <Link>ProxySettingsForm.designer.cs</Link>
     </Compile>
-    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\Resources.Designer.cs">
+    <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\Properties\Resources.Designer.cs">
       <Link>Properties\Resources.Designer.cs</Link>
     </Compile>
     <Compile Include="..\shared\McTools.Xrm.Connection.WinForms\RessourceManager.cs">
@@ -363,7 +363,7 @@
     <EmbeddedResource Include="..\shared\McTools.Xrm.Connection.WinForms\CustomControls\StartPageControl.resx">
       <Link>CustomControls\StartPageControl.resx</Link>
     </EmbeddedResource>
-    <EmbeddedResource Include="..\shared\McTools.Xrm.Connection.WinForms\Resources.resx">
+    <EmbeddedResource Include="..\shared\McTools.Xrm.Connection.WinForms\Properties\Resources.resx">
       <Link>Properties\Resources.resx</Link>
     </EmbeddedResource>
   </ItemGroup>
