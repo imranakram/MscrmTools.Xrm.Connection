@@ -410,6 +410,7 @@
   <ItemGroup>
     <None Include="app.config" />
     <None Include="McTools.Xrm.Connection.WinForms.pfx" />
+    <None Include="Unofficial.McTools.Xrm.Connection.WinForms.nuspec" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Unofficial.McTools.Xrm.Connection</id>
+    <title>XrmToolbox Connection for Service Principal</title>
+    <authors>Tanguy, Imran Akram</authors>
+    <owners>Innofactor AB</owners>
+    <version>1.0.0.0</version>
+    <iconUrl>https://www.innofactor.com/globalassets/other-sizes/innofactor-small-logo.png</iconUrl>
+    <projectUrl>https://github.com/imranakram/MscrmTools.Xrm.Connection</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Forked version of the MscrmTools.Xrm.Connection project for supporting Service Principal based connection for XrmToolBox.</description>
+    <copyright>Innofactor Sweden</copyright>
+    <language>en-US</language>
+    <dependencies>
+      <dependency id="Microsoft.CrmSdk.CoreAssemblies" version="9.0.2.21"/>
+      <dependency id="Microsoft.CrmSdk.Deployment" version="9.0.2.21"/>
+      <dependency id="Microsoft.CrmSdk.Workflow" version="9.0.2.21"/>
+      <dependency id="Microsoft.CrmSdk.XrmTooling.CoreAssembly" version="9.1.0.26"/>
+    </dependencies>
+  </metadata>
+</package>
